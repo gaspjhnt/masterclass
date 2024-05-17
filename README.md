@@ -9,6 +9,7 @@ Pour accéder à la partie admin : [url]/admin
 -- Réservation --
 
 METHOD          URL                         DESCRIPTION
+
 GET            api/reservation/                récupère toutes les reservations.
 GET             api/reservation/{1}            récupère une reservation.
 POST            api/reservation/create            créer une reservation.
