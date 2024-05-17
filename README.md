@@ -1,12 +1,12 @@
-Projet MasterClass UnitTest - Groupe 3 - Gaspard, Noah, Fabrice, Ahmad, Liyam
+## Projet MasterClass UnitTest - Groupe 3 - Gaspard, Noah, Fabrice, Ahmad, Liyam
 
 
 
-Pour accéder à la partie admin : [url]/admin
+### __**Pour accéder à la partie admin : [url]/admin**__
 
 
 
--- Réservation --
+### __**-- Réservation --**__
 
 METHOD          URL                         DESCRIPTION
 
@@ -17,17 +17,17 @@ METHOD          URL                         DESCRIPTION
 > DELETE          api/reservation/delete/{1}        delete une reservation.
 
 
--- Events --
+### __**-- Events --**_
 
 METHOD        URL            DESCRIPTION
 
-GET           api/events        recupere tous les events
-GET           api/events/{id}     recupere l'event id
-POST          api/events        creer un evenement
-PUT           api/events/{id}     modifier l'evenement id
-DELETE        api/events/{id}     supprimer l'event id
+* GET           api/events        recupere tous les events
+* GET           api/events/{id}     recupere l'event id
+* POST          api/events        creer un evenement
+* PUT           api/events/{id}     modifier l'evenement id
+* DELETE        api/events/{id}     supprimer l'event id
 
--- Type (type d'evenement(concert, etc))--
+## __**-- Type (type d'evenement(concert, etc))--**__
 
 METHOD        URL            DESCRIPTION
 GET           api/type        recupere tous les types
