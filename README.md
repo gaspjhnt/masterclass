@@ -19,19 +19,19 @@ METHOD   |---|        URL             |---|                   DESCRIPTION
 
 ### __**-- Events --**__
 
-METHOD        URL            DESCRIPTION
+METHOD    |---|    URL      |---|      DESCRIPTION
 
-* GET     -->      api/events        [recupere tous les events]
-* GET      -->     api/events/{id}     [recupere l'event id]
-* POST     -->     api/events        [creer un evenement]
-* PUT       -->    api/events/{id}     [modifier l'evenement id]
-* DELETE    -->    api/events/{id}     [supprimer l'event id]
+* GET     -->      api/events     |---|   [recupere tous les events]
+* GET      -->     api/events/{id}   |---|  [recupere l'event id]
+* POST     -->     api/events      |---|  [creer un evenement]
+* PUT       -->    api/events/{id} |---|    [modifier l'evenement id]
+* DELETE    -->    api/events/{id}  |---|   [supprimer l'event id]
 
 ### __**-- Type (type d'evenement(concert, etc))--**__
 
-METHOD        URL            DESCRIPTION
+METHOD  |---|      URL         |---|   DESCRIPTION
 
-* GET     -->      api/type        [recupere tous les types]
-* POST     -->     api/type        [creation d'un type]
-* PUT      -->     api/type/{id}        [modifier le type id]
-* DELETE    -->    api/type/{id}        [supprimer le type id]
+* GET     -->      api/type    |---|    [recupere tous les types]
+* POST     -->     api/type     |---|   [creation d'un type]
+* PUT      -->     api/type/{id}   |---|     [modifier le type id]
+* DELETE    -->    api/type/{id}    |---|    [supprimer le type id]
