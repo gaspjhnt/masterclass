@@ -20,6 +20,7 @@ DELETE          api/reservation/delete/{1}        delete une reservation.
 -- Events --
 
 METHOD        URL            DESCRIPTION
+
 GET           api/events        recupere tous les events
 GET           api/events/{id}     recupere l'event id
 POST          api/events        creer un evenement
