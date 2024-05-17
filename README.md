@@ -8,13 +8,13 @@
 
 ### __**-- Réservation --**__
 
-METHOD   |---|        URL             ---                   DESCRIPTION
+METHOD   |---|        URL             |---|                   DESCRIPTION
 
-* GET   -->          api/reservation/               [récupère toutes les reservations.]
-* GET      -->       api/reservation/{1}               [récupère une reservation.]
-* POST     -->      api/reservation/create            [créer une reservation.]
-* POST      -->     api/reservation/update/{1}        [edit une reservation (nbPersons & event_id).]
-* DELETE   -->    api/reservation/delete/{1}        [delete une reservation.]
+* GET   -->          api/reservation/      |---|         [récupère toutes les reservations.]
+* GET      -->       api/reservation/{1}       |---|        [récupère une reservation.]
+* POST     -->      api/reservation/create        |---|    [créer une reservation.]
+* POST      -->     api/reservation/update/{1} |---|       [edit une reservation (nbPersons & event_id).]
+* DELETE   -->    api/reservation/delete/{1}      |---|  [delete une reservation.]
 
 
 ### __**-- Events --**__
