@@ -8,7 +8,7 @@
 
 ### __**-- Réservation --**__
 
-METHOD   -->        URL             ---                   DESCRIPTION
+METHOD   |---|        URL             ---                   DESCRIPTION
 
 * GET   -->          api/reservation/               [récupère toutes les reservations.]
 * GET      -->       api/reservation/{1}               [récupère une reservation.]
