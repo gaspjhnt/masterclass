@@ -1,0 +1,110 @@
+/* Login Page */
+
+.loginContainer {
+  position: relative;
+  left: 34%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 30%;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px lightgray;
+  margin-top: 20px;
+}
+
+.formLogin {
+  text-align: center;
+}
+
+.titleLogin {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.divLogin {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+  text-align: start;
+}
+
+.divLogin > input {
+  border-bottom: 1px solid #0185c7;
+}
+
+.divLogin > input:focus {
+  outline: none;
+  border-bottom: 2px solid #0185c7;
+}
+
+.divRegister {
+  margin-bottom: 10px;
+}
+
+.btnLogin {
+  margin-bottom: 10px;
+}
+
+.loginLinkRegister {
+  color: #266490;
+  text-decoration: underline;
+}
+
+/* Register Page */
+
+.registerPage {
+  height: 700px;
+}
+
+.registerContainer {
+  position: relative;
+  left: 34%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 30%;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px lightgray;
+  margin-top: 20px;
+}
+
+.formRegister {
+  text-align: center;
+}
+
+.titleRegister {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.divRegister {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+  text-align: start;
+}
+
+.divRegister > input {
+  border-bottom: 1px solid #0185c7;
+}
+
+.divRegister > input:focus {
+  outline: none;
+  border-bottom: 2px solid #0185c7;
+}
+
+.btnRegister {
+  margin-bottom: 10px;
+}

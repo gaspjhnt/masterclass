@@ -1,0 +1,24 @@
+.# Ignore les fichiers système d'exploitation
+.DS_Store
+Thumbs.db
+
+# Ignore les fichiers de configuration locaux
+.env
+
+# Ignore les fichiers de dépendances et les répertoires générés par npm
+node_modules/
+package-lock.json
+
+# Ignore les fichiers de dépendances et les répertoires générés par Composer
+vendor/
+composer.lock
+
+# Ignore les fichiers de build et les répertoires générés par l'environnement de développement
+/build/
+/dist/
+/.vscode/
+/.idea/
+
+# Ignore les fichiers de logs et les répertoires temporaires
+/logs/
+/tmp/
